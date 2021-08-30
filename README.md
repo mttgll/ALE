@@ -1,8 +1,8 @@
 # ALE
 
-![ALE](https://user-images.githubusercontent.com/63081353/131411924-d955483f-c920-4c67-86fa-8b6d9f43262e.png)
-
 This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) `.log` file you point it to and extract the text from chat channels of your choosing. It will then let you save these chat logs to a file.
+
+![ALE](https://user-images.githubusercontent.com/63081353/131411924-d955483f-c920-4c67-86fa-8b6d9f43262e.png)
 
 It will ignore the rest of the jargon found in ACT log files.
 
