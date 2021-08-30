@@ -6,7 +6,7 @@ This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcomba
 
 It will ignore the rest of the jargon found in ACT log files.
 
-To be safe, please keep a backup of your log files.
+**To be safe, please keep a backup of your log files.**
 
 ## Usage
 
