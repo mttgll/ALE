@@ -12,6 +12,12 @@ It will ignore the rest of the jargon found in ACT log files.
 
 1. Check or uncheck which channels to include or exclude.
 
+2. Check or uncheck whether to include channel labels and timestamps.
+
+3. Optionally add or remove name filters with the plus `+` or minus `-` buttons.
+   * Only messages from characters with the inputted names will be extracted.
+   * You can add or remove character names to the Saved Names list. These names will persist even when the program is closed and reopened. You can transfer names from the Saved Names list to the Name Filters list by pressing the arrow in between the two lists.
+
 2. Click on the `Select File and Extract` button.
 
 3. Navigate to and select the log file to extract from.
