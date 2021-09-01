@@ -2,7 +2,7 @@
 
 This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) `.log` file you point it to and extract the text from chat channels of your choosing (without all the jargon). It will then let you save these sanitized chat logs to a file.
 
-![image](https://user-images.githubusercontent.com/63081353/131480265-e6dcd9d8-a43b-4fb4-9ab5-4972d9ec9d5a.png)
+![image](https://user-images.githubusercontent.com/63081353/131749040-48c1b6f2-7afa-4430-a5ba-12a555f622d8.png)
 
 ### **To be safe, please keep a backup of your log files.**
 
