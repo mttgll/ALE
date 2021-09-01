@@ -6,6 +6,8 @@ This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcomba
 
 ### **To be safe, please keep a backup of your log files.**
 
+### ALE only parses ACT logs. It does not create logs. ACT must be running in order for logs to be created and recorded.
+
 ## Usage
 
 1. Check or uncheck which channels to include or exclude.
