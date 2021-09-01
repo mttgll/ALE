@@ -1,10 +1,8 @@
 # ALE: ACT Log Extractor
 
-This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) `.log` file you point it to and extract the text from chat channels of your choosing. It will then let you save these chat logs to a file.
+This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) `.log` file you point it to and extract the text from chat channels of your choosing (without all the jargon). It will then let you save these sanitized chat logs to a file.
 
 ![image](https://user-images.githubusercontent.com/63081353/131480265-e6dcd9d8-a43b-4fb4-9ab5-4972d9ec9d5a.png)
-
-It will ignore the rest of the jargon found in ACT log files.
 
 ### **To be safe, please keep a backup of your log files.**
 
