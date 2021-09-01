@@ -10,7 +10,7 @@ This program will parse an [ACT (Advanced Combat Tracker)](https://advancedcomba
 
 1. Check or uncheck which channels to include or exclude.
 
-2. Check or uncheck whether to include channel labels and timestamps.
+2. Check or uncheck whether to include channel labels, timestamps, and message spaces.
 
 3. Optionally add or remove name filters with the plus `+` or minus `-` buttons.
    * Only messages from characters with the inputted names will be extracted.
