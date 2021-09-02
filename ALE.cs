@@ -71,7 +71,7 @@ namespace ALE
         {
             Stream stream = null;
             String final_output = "";
-            Regex regexBasic, regexChat, regexRoll, regexWorldName, regexEmoteWorldName;
+            Regex regexBasic, regexChat, regexRoll, regexWorldName, regexEmoteWorldName, regexPartyNumber;
             StringBuilder builder;
 
             openFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + 
@@ -90,6 +90,7 @@ namespace ALE
                         regexRoll = new Regex(@"00\|(\d{4}\-\d{2}\-\d{2}).(\d{2}\:\d{2}\:\d{2})\..*(\-|\+)\d{2}\:\d{2}\|(204a|104a|084a)\|(.*)\|");
                         regexWorldName = new Regex(@"(.*) [A-Z][a-z]*[A-Z]");
                         regexEmoteWorldName = new Regex(@"[A-Z]([a-z]|\-|\')* [A-Z][a-z]*[A-Z][a-z]*");
+                        regexPartyNumber = new Regex(@"[^\s][A-Z]");
 
                         String cleaned_line, line;
                         String[] parts;
@@ -140,6 +141,12 @@ namespace ALE
                                             {
                                                 characterName = parts[3];
                                             }
+
+                                            match = regexPartyNumber.Match(characterName);
+                                            if (match.Success)
+                                            {
+                                                characterName = characterName.Substring(1);
+                                            }
                                         }
 
                                         // if there are no name filters, always proceed.
@@ -174,11 +181,10 @@ namespace ALE
                                                         cleaned_line += characterName + " >> " + parts[4];
                                                     break;
                                                 case "000e" when checkBoxParty.Checked:
-                                                    // substring(1) party to get rid of weird symbol
                                                     if (checkBoxChannel.Checked)
-                                                        cleaned_line += "(PARTY) " + characterName.Substring(1) + ": " + parts[4];
+                                                        cleaned_line += "(PARTY) " + characterName + ": " + parts[4];
                                                     else
-                                                        cleaned_line += characterName.Substring(1) + ": " + parts[4];
+                                                        cleaned_line += characterName + ": " + parts[4];
                                                     break;
                                                 case "000f" when checkBoxAlliance.Checked:
                                                     if (checkBoxChannel.Checked)
