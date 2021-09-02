@@ -2,7 +2,7 @@
 
 ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) `.log` file you point it to and extract the text from chat channels of your choosing (without all the jargon). It will then let you save these sanitized chat logs to a file.
 
-![image](https://user-images.githubusercontent.com/63081353/131749040-48c1b6f2-7afa-4430-a5ba-12a555f622d8.png)
+![image](https://user-images.githubusercontent.com/63081353/131908089-1eb1fe94-5f44-4372-9968-ed4c6f64dda3.png)
 
 ### **To be safe, please keep a backup of your log files.**
 
