@@ -1,6 +1,6 @@
 # ALE: ACT Log Extractor
 
-ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) `.log` file you point it to and extract the text from chat channels of your choosing (without all the jargon). It will then let you save these sanitized chat logs to a file.
+ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) Final Fantasy XIV `.log` file you point it to and extract the text from chat channels of your choosing (without all the jargon). It will then let you save these sanitized chat logs to a file.
 
 ![image](https://user-images.githubusercontent.com/63081353/131908200-b278170c-6b7c-429a-9141-0e4b1a26862a.png)
 
