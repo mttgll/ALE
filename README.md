@@ -19,7 +19,10 @@ ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](ht
 
 3. Optionally add or remove name filters by entering a name in the text box and either pressing `Enter` or clicking the `+`, and selecting a name in the list box and pressing `Delete` or clicking the minus `-` button.
    * Only messages from characters with the inputted names will be extracted.
-   * You can add or remove character names to the Saved Names list. These names will persist even when the program is closed and reopened. You can transfer names from the Saved Names list to the Name Filters list by selecting a name and then pressing the arrow in between the two lists.
+   * You can add or remove character names to the Saved Names list. These names will persist even when the program is closed and reopened. 
+   * You can transfer names from the Saved Names list to the Name Filters list by selecting a name and then pressing the single arrow `>` button, or hitting the `→` key. 
+   * You can transfer all of your Saved Names to the Name Filters list by pressing the double arrow `>>` button.
+   * You can transfer names in the Name Filters list to your Saved Names list by hitting the `←` key.
 
 2. Click on the `Select File and Extract` button.
 
