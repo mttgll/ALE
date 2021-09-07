@@ -4,12 +4,13 @@ ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](ht
 
 ![image](https://user-images.githubusercontent.com/63081353/132161494-089de086-5691-4127-a401-30f88feb771c.png)
 
-### **To be safe, please keep a backup of your log files.**
+* ### **To be safe, please keep a backup of your log files.**
 
-### ALE only parses ACT logs. It does not create ACT logs.
+* ### ALE only parses ACT logs. It does not create ACT logs.
 
-### I recommend to also use screenshots, video recording, and/or manually copying and pasting chat logs in addition to using this tool to parse ACT logs.
-  * There has been one case where a (Tell) message was empty in an ACT log instead of saving the actual message sent. Further testing must be done before I can confirm this is a valid risk with ACT chat logs. If this does happen, ALE will still output the message with the sender's name (and message time, channel type if checked), so you will be able to see if this ever happens.
+* ### ACT logs do not capture Auto-Translate messages. They will show as empty messages in the ACT log, and will show as empty when parsing them with this tool.
+
+* ### I recommend to also use screenshots, video recording, and/or manually copying and pasting chat logs in addition to using this tool for backing up chat logs.
 
 ## Usage
 
