@@ -6,9 +6,13 @@ ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](ht
 
 * ### **To be safe, please keep a backup of your log files.**
 
-* ### ALE only parses ACT logs. It does not create ACT logs.
-
 * ### ACT logs do not capture [Auto-Translate words](https://ffxiv.fandom.com/wiki/Auto-translator). They will not show up in the ACT log, and will therefore not show up when parsing them with this tool. However, the rest of the message will still be saved in the ACT log, and therefore parsed in this tool.
+
+* ### ACT must be running in order for ACT to save logs. 
+  * If ACT wasn't running during a chat, the chat log will not be saved.
+  * Chat may be saved in the game's log files. At this time, ALE does not parse the game's log files.
+
+* ### ALE only parses ACT logs. It does not create ACT logs.
 
 * ### I recommend to also use screenshots, video recording, and/or manually copying and pasting chat logs in addition to using this tool for backing up chat logs.
 
