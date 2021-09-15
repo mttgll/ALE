@@ -10,9 +10,8 @@ ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](ht
 
 * ### ACT must be running in order for ACT to save logs. 
   * If ACT is not running during a chat, the chat log will not be saved.
-  * Some chat logs are saved in the game's log files. At this time, ALE does not parse the game's log files.
 
-* ### ALE only parses ACT logs. It does not create ACT logs.
+* ### ALE only parses ACT logs. It does not create ACT logs. It also does not parse or sanitize the game's log files at this time.
 
 * ### I recommend to also use screenshots, video recording, and/or manually copying and pasting chat logs in addition to using this tool for backing up chat logs.
 
