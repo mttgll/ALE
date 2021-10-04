@@ -40,3 +40,8 @@ ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](ht
 
 6. Select the save destination for the parsed output. 
     * The default filename is `ExtractedLog.txt`. The user may enter a different filename or use a different file extension if they wish.
+
+
+## Contact
+
+Discord: yesokcool#8548
