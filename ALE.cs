@@ -158,55 +158,55 @@ namespace ALE
                                         {
                                             switch (parts[2])
                                             {
-                                                case "000a" when checkBoxSay.Checked:
+                                                case "000A" when checkBoxSay.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(SAY) " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "000b" when checkBoxShout.Checked:
+                                                case "000B" when checkBoxShout.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(SHOUT) " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "000c" when checkBoxTellIn.Checked:
+                                                case "000C" when checkBoxTellIn.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(TELL) " + ">> " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += ">> " + characterName + ": " + parts[4];
                                                     break;
-                                                case "000d" when checkBoxTellOut.Checked:
+                                                case "000D" when checkBoxTellOut.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(TELL) " + characterName + " >> " + parts[4];
                                                     else
                                                         cleanedLine += characterName + " >> " + parts[4];
                                                     break;
-                                                case "000e" when checkBoxParty.Checked:
+                                                case "000E" when checkBoxParty.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(PARTY) " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "000f" when checkBoxAlliance.Checked:
+                                                case "000F" when checkBoxAlliance.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(ALLIANCE) " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "001e" when checkBoxYell.Checked:
+                                                case "001G" when checkBoxYell.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(YELL) " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "001c" when checkBoxCustomEmote.Checked:
+                                                case "001H" when checkBoxCustomEmote.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(CEMOTE) " + characterName + parts[4];
                                                     else
                                                         cleanedLine += characterName + parts[4];
                                                     break;
-                                                case "001d" when checkBoxEmote.Checked:
+                                                case "001I" when checkBoxEmote.Checked:
                                                     match = regexEmoteWorldName.Match(parts[4]);
                                                     if (match.Success)
                                                     {
