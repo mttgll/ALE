@@ -194,19 +194,19 @@ namespace ALE
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "001G" when checkBoxYell.Checked:
+                                                case "001E" when checkBoxYell.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(YELL) " + characterName + ": " + parts[4];
                                                     else
                                                         cleanedLine += characterName + ": " + parts[4];
                                                     break;
-                                                case "001H" when checkBoxCustomEmote.Checked:
+                                                case "001C" when checkBoxCustomEmote.Checked:
                                                     if (checkBoxChannel.Checked)
                                                         cleanedLine += "(CEMOTE) " + characterName + parts[4];
                                                     else
                                                         cleanedLine += characterName + parts[4];
                                                     break;
-                                                case "001I" when checkBoxEmote.Checked:
+                                                case "001D" when checkBoxEmote.Checked:
                                                     match = regexEmoteWorldName.Match(parts[4]);
                                                     if (match.Success)
                                                     {
