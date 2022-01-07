@@ -1,5 +1,0 @@
-C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Release\net5.0-windows\publish\ALE.exe
-C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Release\net5.0-windows\publish\ALE.dll
-C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Release\net5.0-windows\publish\ALE.deps.json
-C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Release\net5.0-windows\publish\ALE.runtimeconfig.json
-C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Release\net5.0-windows\publish\ALE.pdb
