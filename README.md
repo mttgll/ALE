@@ -1,19 +1,18 @@
 # ALE: ACT Log Extractor
 
-ALE is an open-source tool that will parse an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) Final Fantasy XIV `.log` file you point it to and extract the text from chat channels of your choosing (without all the jargon). It will then let you save these sanitized chat logs to a file.
+ALE is an open-source tool that takes an [ACT (Advanced Combat Tracker)](https://advancedcombattracker.com/) Final Fantasy XIV `.log` file, extracts text from chat channels of the user's choosing, and then saves the text to a file—without all of the jargon.
 
 ![image](https://user-images.githubusercontent.com/63081353/132161494-089de086-5691-4127-a401-30f88feb771c.png)
 
-* ### **To be safe, please keep a backup of your log files.**
+* # **To be safe, please keep a backup of your log files.**
 
-* ### ACT logs do not capture [Auto-Translate words](https://ffxiv.fandom.com/wiki/Auto-translator). They will not show up in the ACT log, and will therefore not show up when parsing them with this tool. However, the rest of the message will still be saved in the ACT log, and therefore the rest of the message will still be parsed with this tool.
+* **ACT logs do not record [Auto-Translate words](https://ffxiv.fandom.com/wiki/Auto-translator).** However, everything else in the message is still recorded in the ACT log.
 
-* ### ACT must be running in order for ACT to save logs. 
-  * If ACT is not running during a chat, the chat log will not be saved.
+* **ACT must be running in order for ACT to save logs.** If ACT is not running during a chat, the chat log **will not be recorded**.
 
-* ### ALE only parses ACT logs. It does not create ACT logs. It also does not parse or sanitize the game's log files at this time.
+* **ALE does not create ACT logs.** ALE only parses ACT logs. ALE also does not parse or sanitize the game's own log files at this time.
 
-* ### I recommend to also use screenshots, video recording, and/or manually copying and pasting chat logs in addition to using this tool for backing up chat logs.
+* Screenshots, video recording, and manually copying chat logs in-game are all alternative options to use in addition to ALE for backing up chat logs.
 
 ## Usage
 
