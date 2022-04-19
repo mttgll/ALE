@@ -304,7 +304,7 @@ namespace ALE
             this.buttonRemoveName.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.buttonRemoveName.Location = new System.Drawing.Point(498, 507);
             this.buttonRemoveName.Name = "buttonRemoveName";
-            this.buttonRemoveName.Size = new System.Drawing.Size(179, 44);
+            this.buttonRemoveName.Size = new System.Drawing.Size(44, 44);
             this.buttonRemoveName.TabIndex = 27;
             this.buttonRemoveName.Text = "-";
             this.buttonRemoveName.UseVisualStyleBackColor = false;
@@ -353,7 +353,7 @@ namespace ALE
             this.buttonRemoveSavedName.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.buttonRemoveSavedName.Location = new System.Drawing.Point(222, 507);
             this.buttonRemoveSavedName.Name = "buttonRemoveSavedName";
-            this.buttonRemoveSavedName.Size = new System.Drawing.Size(179, 44);
+            this.buttonRemoveSavedName.Size = new System.Drawing.Size(44, 44);
             this.buttonRemoveSavedName.TabIndex = 21;
             this.buttonRemoveSavedName.Text = "-";
             this.buttonRemoveSavedName.UseVisualStyleBackColor = false;
@@ -392,9 +392,9 @@ namespace ALE
             this.buttonAddSavedNameToFilter.FlatAppearance.BorderSize = 0;
             this.buttonAddSavedNameToFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAddSavedNameToFilter.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.buttonAddSavedNameToFilter.Location = new System.Drawing.Point(407, 507);
+            this.buttonAddSavedNameToFilter.Location = new System.Drawing.Point(457, 399);
             this.buttonAddSavedNameToFilter.Name = "buttonAddSavedNameToFilter";
-            this.buttonAddSavedNameToFilter.Size = new System.Drawing.Size(44, 44);
+            this.buttonAddSavedNameToFilter.Size = new System.Drawing.Size(35, 102);
             this.buttonAddSavedNameToFilter.TabIndex = 23;
             this.buttonAddSavedNameToFilter.Text = ">";
             this.buttonAddSavedNameToFilter.UseVisualStyleBackColor = false;
@@ -476,7 +476,7 @@ namespace ALE
             this.buttonLogsDir.Name = "buttonLogsDir";
             this.buttonLogsDir.Size = new System.Drawing.Size(367, 50);
             this.buttonLogsDir.TabIndex = 31;
-            this.buttonLogsDir.Text = "Open Logs Directory";
+            this.buttonLogsDir.Text = "Open Extracted Logs Directory";
             this.buttonLogsDir.UseVisualStyleBackColor = false;
             this.buttonLogsDir.Click += new System.EventHandler(this.buttonLogsDir_Click);
             // 
@@ -547,7 +547,7 @@ namespace ALE
             this.buttonAll.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.buttonAll.Location = new System.Drawing.Point(457, 139);
             this.buttonAll.Name = "buttonAll";
-            this.buttonAll.Size = new System.Drawing.Size(35, 412);
+            this.buttonAll.Size = new System.Drawing.Size(35, 254);
             this.buttonAll.TabIndex = 22;
             this.buttonAll.Text = ">>";
             this.buttonAll.UseVisualStyleBackColor = false;
