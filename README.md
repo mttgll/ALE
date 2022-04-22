@@ -38,7 +38,9 @@ ALE is an open-source tool that reads a Final Fantasy XIV [ACT (Advanced Combat 
 5. Click OK on the confirmation window.
 
 6. Select the save destination for the parsed output. 
-    * The default filename is `ExtractedLog.txt`. The user may enter a different filename or use a different file extension if they wish.
+    * The default filename is `ExtractedLog.txt` and will save in the same directory as ALE by default. The user may enter a different filename or use a different file extension if they wish. 
+    * The newly saved file will automatically open in the user's default program for the filetype after saving.
+    * There is also a button in ALE to conveniently open ALE's directory.
 
 
 ## Contact

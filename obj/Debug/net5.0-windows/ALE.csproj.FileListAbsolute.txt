@@ -5,7 +5,6 @@ C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Debug\net5.0
 C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Debug\net5.0-windows\ALE.dll
 C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Debug\net5.0-windows\ref\ALE.dll
 C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\bin\Debug\net5.0-windows\ALE.pdb
-C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\obj\Debug\net5.0-windows\ALE.csproj.AssemblyReference.cache
 C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\obj\Debug\net5.0-windows\ALE.ALE.resources
 C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\obj\Debug\net5.0-windows\ALE.Properties.Resources.resources
 C:\Cloud Banana Dropbox\Banana Dropbox\Coding\Repos\ALERepo\ALE\obj\Debug\net5.0-windows\ALE.csproj.GenerateResource.cache

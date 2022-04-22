@@ -476,7 +476,7 @@ namespace ALE
             this.buttonLogsDir.Name = "buttonLogsDir";
             this.buttonLogsDir.Size = new System.Drawing.Size(367, 50);
             this.buttonLogsDir.TabIndex = 31;
-            this.buttonLogsDir.Text = "Open Extracted Logs Directory";
+            this.buttonLogsDir.Text = "Open ACT Logs Directory";
             this.buttonLogsDir.UseVisualStyleBackColor = false;
             this.buttonLogsDir.Click += new System.EventHandler(this.buttonLogsDir_Click);
             // 
