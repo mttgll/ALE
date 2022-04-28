@@ -43,6 +43,6 @@ ALE is an open-source tool that reads a Final Fantasy XIV [ACT (Advanced Combat 
     * There is also a button in ALE to conveniently open ALE's directory.
 
 
-## Contact
+## Contributing
 
-Discord: yesokcool#8548
+Feel free to fork this and make pull requests. For any bugs you find or any other problems please use the Issues tab at the top!
