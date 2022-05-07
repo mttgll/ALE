@@ -4,9 +4,9 @@ ALE is an open-source tool that reads a Final Fantasy XIV [ACT (Advanced Combat 
 
 ![Capture](https://user-images.githubusercontent.com/63081353/164757194-4e5ab6db-b464-4906-bbd7-30eba59c168b.PNG)
 
-* ### **It is highly recommended that the user create backups of their original ACT log files before performing any operation on them, out of an abundance of caution.**
+* ### **It is *highly* recommended that the user create backups of their original ACT log files before performing any operation on them.**
 
-* **ACT logs do not record [Auto-Translate words](https://ffxiv.fandom.com/wiki/Auto-translator).** However, everything else in the message is still recorded in the ACT log.
+* **ACT logs do not record [Auto-Translate words](https://ffxiv.fandom.com/wiki/Auto-translator).** However, all other text in a message containing Auto-Translate words will still be recorded in the ACT log.
 
 * **ACT must be running in order for ACT to create logs.** If ACT is not running during a chat, the chat log **will not be recorded**.
 
