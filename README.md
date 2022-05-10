@@ -14,6 +14,8 @@ ALE is an open-source tool that reads a Final Fantasy XIV [ACT (Advanced Combat 
 
 * Screenshots, video recording, and manually copying chat logs in-game are all alternative options to use in addition to ALE for backing up chat logs.
 
+* ALE supports keyboard shortcuts for efficiency: `Enter` to add a name, `Delete` to remove a name, `->` to move a saved name to the name filters list, and `<-` to move a name in the name filters list to the saved names list.
+
 ## Usage
 
 1. Check or uncheck which channels to include or exclude.
