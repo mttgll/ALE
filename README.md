@@ -26,6 +26,7 @@ ALE is an open-source tool that reads a Final Fantasy XIV [ACT (Advanced Combat 
    * Only messages from characters with the inputted names will be extracted.
       * Note: When there are active name filters, Tell messages that the user has sent will not show up unless the recipient's name is in the name filters list.
    * You can add or remove character names to the Saved Names list. These names will persist even when the program is closed and reopened. 
+   * Character names are automatically capitalized correctly when entered.
    * You can transfer names from the Saved Names list to the Name Filters list by selecting a name and then pressing the single arrow `>` button, or hitting the `→` key. 
    * You can transfer all of your Saved Names to the Name Filters list by pressing the double arrow `>>` button.
    * You can transfer names in the Name Filters list to your Saved Names list by hitting the `←` key.
