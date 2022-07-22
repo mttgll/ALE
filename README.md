@@ -37,7 +37,7 @@ ALE is an open-source tool that reads a Final Fantasy XIV [ACT (Advanced Combat 
     * ACT log files are usually found in `AppData\Roaming\Advanced Combat Tracker\FFXIVLogs`.
 
 4. Wait for the log file to be parsed.
-    * ACT log files can be very large, so this may take some time. 
+    * ACT log files can be very large, so this may take some time, especially when done in bulk.
 
 5. Click OK on the confirmation window.
 
