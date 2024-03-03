@@ -4,7 +4,7 @@ ALE is an open-source tool that reads Final Fantasy XIV [ACT (Advanced Combat Tr
 
 ![Capture](https://user-images.githubusercontent.com/63081353/164757194-4e5ab6db-b464-4906-bbd7-30eba59c168b.PNG)
 
-* ### **It is *highly* recommended that the user create backups of their original ACT log files before performing any operation on them.**
+* ### **Despite ALE not modifying original ACT log files, it is still *highly* recommended that the user create backups of their original ACT log files before performing any operation on them.**
 
 * **ACT logs do not record [Auto-Translate words](https://ffxiv.fandom.com/wiki/Auto-translator).** However, all other text in a message containing Auto-Translate words will still be recorded in the ACT log.
 
@@ -12,15 +12,15 @@ ALE is an open-source tool that reads Final Fantasy XIV [ACT (Advanced Combat Tr
 
 * **ALE does not create ACT logs.** ALE only parses ACT logs. ALE also does not parse the game's own log files at this time.
 
-* ACT logs are just a single backup. Screenshots, video recording, and manually copying chat logs in-game are also recommended alternative options to use in addition to ACT and ALE for backing up chat logs.
+* As ACT logs serve as just a single backup and ACT may not always be running in the background, Dalamud plugins, screenshots, video recording, and manually copying chat logs in-game can serve as alternatives for backing up chat logs.
 
-* ALE supports keyboard shortcuts for efficiency: `Enter` to add a name, `Delete` to remove a name, `->` to move a saved name to the name filters list, and `<-` to move a name in the name filters list to the saved names list.
+* ALE supports keyboard shortcuts: `Enter` to add a name, `Delete` to remove a name, `->` to move a saved name to the name filters list, and `<-` to move a name in the name filters list to the saved names list.
 
 ## Usage
 
-1. Check or uncheck which channels to include or exclude.
+1. Select which channels to include.
 
-2. Check or uncheck whether to include channel labels, timestamps, and message spaces.
+2. Select whether to include channel labels, timestamps, and message spaces.
 
 3. Optionally add or remove name filters by entering a name in the text box and either pressing `Enter` or clicking the `+`, and selecting a name in the list box and pressing `Delete` or clicking the minus `-` button.
    * Only messages from characters with the inputted names will be extracted.
